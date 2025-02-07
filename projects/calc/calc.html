@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <title> calculator | JavaScript Calculator </title>
+  <link type="text/css" rel="stylesheet" href="calc.css">
+</head>
+<body>
+  <div id="page-wrapper">
+  <header>
+    <h1>Calculator</h1>
+    <p>Made with Javascript</p>
+  </header>
+
+  <!-- Not used-->
+  <nav>
+  </nav>
+
+  <main>
+    <label for="first-number"></label><input type="text" id="first-number" placeholder="First Number">
+    <label for="second-number"></label><input type="text" id="second-number" placeholder="Second Number">
+    <div id="buttons">
+      <button onclick="addition()"> + </button>
+      <button onclick="subtraction()"> - </button>
+      <button onclick="multiplication()"> * </button>
+      <button onclick="division()"> / </button>
+      <button onclick="power()"> ^ </button>
+      <button onclick="clearNums()"> clear </button>
+    </div>
+    <h3 id="output"></h3>
+  </main>
+  <footer>
+    <p>All rights reserved by Alyssa Najera: <a href="">Credits</a> &#169;</p>
+  </footer>
+  <script src="calc.js"></script>
+  </div>
+</body>
+</html>
