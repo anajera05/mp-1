@@ -40,12 +40,11 @@ h1{
 /* Navigation */
 nav{
     width: 30%;
-    background-color:#0B3364;
+    background-color: #041a35;
 }
 nav ul{
     display: flex;
     flex-direction: column;
-    font-size: calc(2px + 1vw);
     text-align: left;
     list-style: none;
 }
